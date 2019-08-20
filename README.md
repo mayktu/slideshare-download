@@ -1,13 +1,25 @@
-# slideshare downloader
+# Slideshare Downloader
 Download Slidshare Presentations using xpath
 
-### sintaxe:
-**$ python slideshare.py URL-do-slide**
 
 ### Dependências
 
-Para juntar as imagens e montar o PDF, escolha o pacote de seu agrado. No linux, minha escolha foi o *convert* do pacote Imagemagick. Para instalá-lo:
+Para utilizar o programa é necessario instalar o pacote 'img2pdf' do python. No terminal digite:
 
-**$ sudo apt-get install imagemagick**
+#### Windows
+```
+pip install img2pdf
+```
 
-Outras opções podem ser utilizada, apenas mudando o comando de saida na linha **21** do script.
+#### Linux
+```
+sudo pip install img2pdf
+```
+
+### Como usar:
+1. Baixar o slideshare.py
+2. Com o terminal na mesma pasta do arquivo digite:
+```
+python slideshare.py URL-do-slide
+```
+
