@@ -2,7 +2,7 @@
 Download Slidshare Presentations using xpath
 
 
-### Dependências
+## Dependências
 
 Para utilizar o programa é necessario instalar o pacote 'img2pdf' do python. No terminal digite:
 
@@ -16,10 +16,15 @@ pip install img2pdf
 sudo pip install img2pdf
 ```
 
-### Como usar:
-1. Baixar o slideshare.py
+## Como usar:
+1. Baixe o slideshare.py
 2. Com o terminal na mesma pasta do arquivo digite:
 ```
 python slideshare.py URL-do-slide
 ```
+Por exemplo:
+```
+python slideshare.py https://pt.slideshare.net/nome-do-autor/nome-do-slide
+```
+
 
